@@ -165,3 +165,118 @@ footer{
    color: aqua;
    padding: 30px;
 }
+
+/* MEDIA QUERY */
+
+/* mobile view */
+@media only screen and (max-width:688px) {
+   header {
+         margin-top: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+   
+      .top-container {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         width: 80%;
+         height: 70vh;
+      }
+   
+      .banner-left {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         height: 35vh;
+         padding: 0 60px;
+      }
+   
+      .banner-heading {
+         font-size: 15px;
+      }
+   
+      .banner-text {
+         font-size: 10px;
+         height: 30px;
+         overflow: hidden;
+         text-overflow: ellipsis;
+      }
+   
+      .banner-btn {
+         height: 30px;
+         width: 50px;
+         font-size: 10px;
+         box-shadow: 0 5px rgba(128, 128, 128, 0.671);
+      }
+   
+      .banner-right {
+         height: 50vh;
+      }
+   
+      .banner-right img {
+         width: 233px;
+         height: 245px;
+         padding-top: 10px;
+      }
+   
+      .middle-container {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+   
+      .side-nav {
+         margin: 0;
+         background-color: white;
+         border: none;
+         position: relative;
+         top: -10px;
+         right: 15px;
+         height: 100px;
+         width: 200px;
+         margin: 10px 0;
+      }
+   
+      .nav-btn {
+         padding: 10px 15px;
+         margin: 5px;
+      }
+   
+      .blogs {
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+      }
+   
+      #hidden {
+         display: none;
+      }
+   
+      .footer-title h2 {
+         font-size: 30px;
+         margin: 0;
+      }
+   
+      .footer-section hr {
+         width: 280px;
+         margin: 15px;
+      }
+   
+      .footer-links {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+   
+      .footer-links a {
+         margin: 5px 0;
+      }
+   
+      .social-links {
+         margin: 0 10px;
+         font-size: 20px;
+      }
+   }
+}
