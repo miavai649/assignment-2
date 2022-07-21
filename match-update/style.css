@@ -107,35 +107,27 @@ header{
    grid-template-columns: repeat(3, 1fr);
 }
 .blog{
-   height: 362px;
+   height: 242px;
    width: 312px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
    border: 1px solid gainsboro;
    border-radius: 10px;
    margin: 20px 50px;
 }
-.blog-btn{
-   margin-top: 20px;
-   margin-left: 20px;
-   margin-right: 20px;
-   margin-bottom: 2px;
-   padding: 5px 20px;
-   border-radius: 5px;
-}
-.blog-btn a{
-   text-decoration: none;
-   font-weight: 700;
-   color: black;
-}
-.blog-title{
-   padding-left: 20px;
-   padding-right: 20px;
-}
-.blog-info{
+.thumbnail{
    display: flex;
+   justify-content: center;
    align-items: center;
-   justify-content: space-around;
-   align-content: center;
 }
+.thumbnail p{
+   font-weight: 900;
+   font-size: 20px;
+   margin: 0 20px;
+}
+
 
 /* footer section styles */
 footer{
